@@ -1,5 +1,5 @@
 import * as Phaser from 'phaser';
-import { Scenes } from './scenes';
+import { SCENES } from './scenes';
 
 const CANVAS_WIDTH = 960;
 const CANVAS_HEIGHT = 540;
@@ -16,7 +16,7 @@ const config: Phaser.Types.Core.GameConfig = {
         width: CANVAS_WIDTH,
         height: CANVAS_HEIGHT,
     },
-    scene: Scenes,
+    scene: SCENES,
     physics: {
         default: 'matter',
         matter: {

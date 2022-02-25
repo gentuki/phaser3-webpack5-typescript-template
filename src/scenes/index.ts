@@ -1,3 +1,3 @@
 import { GameScene } from './GameScene';
 
-export const Scenes = [GameScene];
+export const SCENES = [GameScene];
